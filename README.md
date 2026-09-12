@@ -1,55 +1,35 @@
-# AI/ML Task-1 — Student Performance Data Explorer
+# AI/ML Task-1: Student Performance Data Explorer
 
-## Objective
-Analyze student performance data by loading, cleaning, exploring and visualizing the dataset.
+## Overview
+This project is part of an Artificial Intelligence and Machine Learning (AI/ML) Task-1. It focuses on Python fundamentals, data loading, cleaning, statistical analysis, and Exploratory Data Analysis (EDA).
 
-## Tools
-- Python 3.12+
-- Jupyter Notebook
-- Pandas, NumPy, Matplotlib
-- Git/GitHub
+## Objectives
+- Set up an AI/ML development environment
+- Practice Python programming
+- Load and explore datasets using Pandas
+- Handle missing values and duplicates
+- Perform statistical analysis
+- Create data visualizations
+- Identify patterns in student performance
 
-## Project Structure
-```text
-AI_ML_Task1_Student_Performance/
-├── data/
-│   └── student_performance.csv
-├── notebooks/
-│   └── Student_Performance_Data_Explorer.ipynb
-├── src/
-│   └── eda.py
-├── reports/
-│   ├── EDA_Report.pdf
-│   └── figures/
-└── screenshots/
-```
+## Technologies
+Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Git & GitHub.
 
-## How to Run
-```bash
-python -m venv venv
-# Windows: venv\Scripts\activate
-# Linux/macOS: source venv/bin/activate
-pip install numpy pandas matplotlib seaborn jupyter
-jupyter notebook
-```
+## Dataset
+The Student Performance dataset contains Attendance Percentage, Study Hours, Assignment Score, Internal Marks, and Final Marks. It is a practice/demo dataset created for educational purposes.
 
-Open `notebooks/Student_Performance_Data_Explorer.ipynb` and run all cells.
-
-## Data Cleaning
-The raw dataset intentionally contains a small number of missing values and duplicate rows so that the required cleaning steps can be demonstrated. Duplicate rows are removed and missing numeric values are filled using the median.
-
-## EDA
-The notebook includes:
-- First 10 rows
-- Dataset shape and columns
+## EDA Performed
 - Missing-value analysis
-- Duplicate detection/removal
+- Duplicate detection and removal
+- Median imputation
 - Mean, median and mode
-- Histogram
-- Scatter plot
-- Box plot
+- Histograms
+- Scatter plots
+- Box plots
 - Correlation heatmap
-- Findings and conclusion
 
-## Note
-The student dataset in this project is a practice dataset created for Task-1 demonstration. It is not a real student's academic record.
+## Conclusion
+The project demonstrates the basic AI/ML data analysis workflow from data loading and cleaning to visualization and interpretation.
+
+## Author
+Yogendra balaji
